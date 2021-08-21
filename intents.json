@@ -1,0 +1,34 @@
+{"intents":[
+			{"tag": "Greetings",
+			 "patterns":["Hello","Hi","hey","hii","what's up","greetings"],
+			 "responses":["Hey! What can I do for you?","Hey! How can I assist you?"]} ,
+
+			{"tag": "Goodbye",
+			 "patterns":["bye","cya","i'm leaving","bye bye","Goodbye", "goodbye", "see you later", "thankyou"],
+			 "responses":["Goodbye","Have a good day","Bye! See you later","Bye!","Take care"]} ,
+
+			 {"tag": "Trouble",
+ 			  "patterns":["I am having some trouble with my studies","I'm unable manage time","unable to get time for studies","help me with my studies", "time management"],
+ 			  "responses":["The best way to learn the skill of time management is \n by making a time table, where you give time \n to everything including studies and play!"]},
+
+			 {"tag": "NotTimeTable",
+				"patterns" :["I am unable to make a time table","can't make a time table","i am having trouble in making a time table","please help me ! I am not able to make a time table and don't even know where to start from"],
+				"responses":["Start your day with your most important work.\n Map out your perfect daily schedule \n according to your personal 'productivity curve' \n Use 'time blocking' to switch from \n being reactive to in control of your time.\n Set your availability to the \n minimum you can (10-15) minutes"]},
+
+			 {"tag":"Resources",
+				"patterns":["where i can find good resources for studies","Help me find resources for studies","i want some resources material","provide me some good study material","I'm having difficulty in finding good study material","study material","study resources"],
+				"responses": ["Yes sure! You can find good study material\n @ https://www.khanacademy.org/ "]},
+
+			 {"tag":"Depression",
+				"patterns":["I'm feeling very sad","I'm feeling very depressed","depressed and sad","I am very sad as i can't study","I am very depressed as I can't study","I am very depressed as I can't study and my friends are getting ahead of me","I can't study and my friends are getting ahead of me so i am very sad"],
+				"responses":["Acknowledge your resistance and difficult \n  feelings with motivation.\n Do not run away.\n Do not blame yourself for \n procrastinating now and then. \n Try to understand your studying \n style better. Don't question your abilities.\n Focus on the task at hand."]},
+
+			 {"tag":"Suicide",
+			  "patterns":["i am having suicidal thoughts","die","suicide","self hurting","i am going to suicide"],
+			  "responses":["Help is available\nSpeak with someone now @ 9152987821.\nYour life matters and you can do amazing things in life.\nsave your life!\nDon't let regrets and faliures take upon you!!! "]}]
+
+
+
+
+
+}
